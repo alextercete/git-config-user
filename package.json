@@ -1,0 +1,33 @@
+{
+  "name": "git-config-user",
+  "version": "0.1.0",
+  "description": "Have different user configs for different Git repos",
+  "scripts": {
+    "lint": "jscs lib/ spec/ && jshint lib/ spec/",
+    "test": "mocha --colors --recursive lib/ spec/",
+    "watch:test": "npm test -- --reporter dot --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alextercete/git-config-user.git"
+  },
+  "keywords": [
+    "git",
+    "git-config",
+    "dotfiles"
+  ],
+  "author": "Alex Tercete <alextercete@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextercete/git-config-user/issues"
+  },
+  "homepage": "https://github.com/alextercete/git-config-user",
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}

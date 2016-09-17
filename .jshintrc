@@ -1,0 +1,20 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "latedef": "nofunc",
+  "noarg": true,
+  "nonbsp": true,
+  "nonew": true,
+  "undef": true,
+  "maxparams": 10,
+  "maxdepth": 5,
+  "maxstatements": 40,
+  "maxcomplexity": 8,
+
+  "node": true,
+  "esversion": 6,
+  "mocha": true
+}
